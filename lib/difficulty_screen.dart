@@ -21,7 +21,7 @@ class DifficultyScreenState extends State<DifficultyScreen> {
         backgroundColor: Colors.red,
         centerTitle: true,
         title: const Text(
-          'ZMaths',
+          'Z-Maths',
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
         ),
       ),

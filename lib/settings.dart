@@ -20,7 +20,7 @@ class SettingsScreenState extends State<SettingsScreen> {
         appBar: AppBar(
             backgroundColor: Colors.red,
             title: const Center(
-                child: Text('ZMaths',
+                child: Text('Z-Maths',
                     style:
                         TextStyle(fontSize: 30, fontWeight: FontWeight.w600)))),
         backgroundColor: const Color.fromARGB(255, 245, 176, 176),

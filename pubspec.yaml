@@ -43,7 +43,22 @@ dev_dependencies:
     sdk: flutter
   hive_generator: ^2.0.1
   build_runner: ^2.1.1
+  flutter_launcher_icons: ^0.13.1
 
+flutter_launcher_icons:
+  image_path: "assets/logo.png"
+  android: "launcher_icon"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+  windows:
+    generate: true
+    image_path: "assets/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo.png"
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -64,6 +79,7 @@ flutter:
 
   assets:
     - assets/questions.csv
+    - assets/logo.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
