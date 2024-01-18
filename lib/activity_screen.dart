@@ -432,7 +432,7 @@ String queFetch(String quesSel, String qSide) {
 /* this decides, at random, which button is going to be the button with the
 correct answer */
 List<bool> getCorrectBut() {
-  int randInt = ranIntGen(0, 3);
+  int randInt = ranIntGen(0, 4);
   if (randInt == 0) {
     correctButton = [true, false, false, false];
   } else if (randInt == 1) {
